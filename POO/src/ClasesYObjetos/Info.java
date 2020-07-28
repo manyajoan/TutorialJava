@@ -159,6 +159,12 @@ public class Info {
     Los encapsulamientos sirven para que no todo el mundo pueda tomar los datos de tu classe
     y hacer lo que quieran. 
     
+    Sirve para limitar para que no puedas tener por ejemplo un objeto persona con el atributo edad 
+    y que sea de 1000 años. 
+    
+    Un atributo tiene dos partes la que se rellena el atributo y la parte para mostrar. 
+    
+    SET= Establedcer
     
     
     
