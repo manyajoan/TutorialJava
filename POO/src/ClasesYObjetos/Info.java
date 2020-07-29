@@ -167,6 +167,15 @@ public class Info {
     SET= Establedcer
     
     
+    //*****************************Miembros de una classe***********************
+    
+    Los miembros de una classe son los getters y setters 
+    Los atributos de tipo estatico la classe es dueña de los atributos.
+    Tambi8en hay metodos staticos no le pertenecen a los objetos le pertenecen a la classe. 
+    
+    Cuando es estatico no le pertenece al objeto le pertenece a la clase. Se utiliza qundo quieras canviar un
+    atributo y quieres que canvie en todos los objetos. 
+    
     
     
     
