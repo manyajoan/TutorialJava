@@ -5,6 +5,8 @@
  */
 package Ejercicio1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author conan
@@ -12,13 +14,24 @@ package Ejercicio1;
 public class Main {
     public static void main(String []args){
         
-        Cuadrilatero cuadri1 = new Cuadrilatero(5,7); 
+        Cuadrilatero c1;
         
-        cuadri1.Perimetro(5, 7);
+        float lado1, lado2;
         
-        System.out.println(p);
+        lado1= Float.parseFloat(JOptionPane.showInputDialog("Introduzca lado1"));
+        lado2= Float.parseFloat(JOptionPane.showInputDialog("Introduzca lado1"));
+      
         
+        if (lado1 ==lado2) { //Es un cuadrado
+            
+            c1 = new Cuadrilatero(lado1);
+        }else{
+            c1 = new Cuadrilatero(lado1, lado2);
+        }
         
+        System.out.println("El Perimetro es: "+c1.getPerimetro());
+        System.out.println("EL area es: "+ c1.getArea());
         
     }
 }
+

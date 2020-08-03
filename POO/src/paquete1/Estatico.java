@@ -22,7 +22,7 @@ public class Estatico {
           // System.out.println(ob2.frase);
            System.out.println(Estatico.frase);
            
-           pui
+      
        }
     
     
