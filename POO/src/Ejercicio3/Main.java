@@ -31,7 +31,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        Vehiculo v1;
+        //Vehiculo v1;
         String marca;
         String modelo;
         float precio;
