@@ -1,22 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete2;
+//Para crear objetos de otro paquete necessitamos importarlo 
+
 import paquete1.Clase1;
-/**
- *
- * @author conan
- */
-public class Clase3 {
-     public static void main (String [] args){
-        Clase1 objeto1 = new Clase1();
+
+
+public class clase3 {
+    public static void main (String []args){
+       // Clase1 Objeto1 = new Clase1();
         
-       
-         
+       // Objeto1.atributo1 = 15; 
         
-     //    System.out.println(objeto1.atributo1);
         
     }
+    
 }
